@@ -1,0 +1,8 @@
+# UniMote
+### A universal remote which can be used on different appliances with a native application and physical buttons.
+How I will be making the first prototype - first of all I will detect the signal each remote gives on each button (usualy like its pulses on and off in a pattern). i will connect a ir receiver to an esp32 and then will run a code which will detect the signal and show it in serial monitor. then i will write a script which replicates the signals of that remote using ir transmitter, the buttons will be places on a web server created by the esp. and repeat for all diffrent buttons of all diffrent remotes one by one. all of this will be done on my esp32cam (not very suitable and cost effective for this one, so its just for testing)
+
+The Polished Final project --- I will make a pcb design for it, add buttons to it, maybe dials for volume or AC temp control, change the microcontroller from an esp32cam to a more suitable and cost effective controller. 3D print a case for it, make as compact as possible, make a native app for it, available on all platforms (android/windows/linux/maybe mac/maybe ios). and finally Maybee add other remotes and appliances to it. Or best, add a ir reciever to it, and add a feature where you can add custom remotes to it, like live calibration, no need to hardcode the remote signals, detect them and add them using the app or physical buttons. Maybe add a display. Maybe add a external extension to it (communication wireless) which would sit/clip directly in front of the ir signal reciever in the appliance so instant control.
+
+### _Made by Shreerang_
+more details will be slowly added with time.
