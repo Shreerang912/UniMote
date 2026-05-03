@@ -44,3 +44,10 @@ So I am using platform IO for coding and compiling, because VS code is sooo grea
 ![Flashing](Images/3.png)
 
 **Total Time Spent: 30min**
+
+# May 04: Collecting Raw data from fan's remote
+
+So, what I did was like Place my fan's remote infront of the ir sensor and press a button and copy paste the output in a txt file. I did this for all 10 buttons on my fan's remote (speed 1, 2, 3, 4, 5, 6, timer, sleep, led, on/off). I did this once and placed it in a txt file. The IR sensor module usually has 2 led on it (tho, technically only one of them is led, which emits ir light, the other one is just ), so then after doing it once, I realised that the IR transmitting dioide must be interfering with the signals and corrupting them, like it would bounce of the remote's plastic shell and the IR sensor would detect its own ir light as well as remote's so this would mess it up. So then I bent the ir transmitting diode downwards, and recorded the results once again. i decided to record it once again for 3rd time to make sure it was correct. I also tested if ambient visible light around the room interfers (like if the torch/lamp, emits small amount of ir light with it too), but I dont think it made a diffrence as I saw nothing on serial monitor when I flashed a torch. Now I havent analysed the results yet, I will do it later. I believe What Im gonna be seeing is, diffrent results from round 1 and same results from round 2 & 3 if everything went well. Lets see what happens
+Also I made a timelapse while doing this....ughh here, take this [link](https://lapse.hackclub.com/timelapse/riNT0hd4Ol9e). 
+
+**Total Time Spent: 30min**
